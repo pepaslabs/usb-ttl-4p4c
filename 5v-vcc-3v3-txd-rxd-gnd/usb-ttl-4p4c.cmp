@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 04 Apr 2018 03:05:00 AM CDT
+
+BeginCmp
+TimeStamp = /5AC4710B;
+Reference = J1;
+ValeurCmp = 4P4C;
+IdModule  = A-2004-3-4-LP-N-R_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5AC486A8;
+Reference = P1;
+ValeurCmp = CONN_6X1;
+IdModule  = SIL-6;
+EndCmp
+
+EndListe
