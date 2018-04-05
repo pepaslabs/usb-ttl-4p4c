@@ -55,7 +55,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 apr 2018"
+Date "5 apr 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -89,7 +89,7 @@ F 3 "~" H 3450 3950 60  0000 C CNN
 	1    3400 3800
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5800 3600 0    40   Input ~ 0
+Text GLabel 5050 3600 0    40   Input ~ 0
 5V
 Text GLabel 5800 3700 0    40   Input ~ 0
 TXD
@@ -100,7 +100,7 @@ GND
 Text GLabel 3800 3600 2    40   Input ~ 0
 3V3
 Wire Wire Line
-	5800 3600 6000 3600
+	5600 3600 6000 3600
 Wire Wire Line
 	5800 3700 6000 3700
 Wire Wire Line
@@ -127,4 +127,17 @@ Wire Wire Line
 	3600 4000 3800 4000
 Text Notes 3100 3300 0    100  ~ 20
 CP2102 5-pin pinout
+$Comp
+L DIODE D1
+U 1 1 5AC56D03
+P 5400 3600
+F 0 "D1" H 5400 3700 40  0000 C CNN
+F 1 "1N4148" H 5400 3500 40  0000 C CNN
+F 2 "~" H 5400 3600 60  0000 C CNN
+F 3 "~" H 5400 3600 60  0000 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3600 5050 3600
 $EndSCHEMATC
