@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 04 Apr 2018 01:35:46 AM CDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 04 Apr 2018 07:07:20 PM CDT
+
+BeginCmp
+TimeStamp = /5AC56872;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = DIODE_SS_059A_03_PL;
+EndCmp
 
 BeginCmp
 TimeStamp = /5AC4710B;
